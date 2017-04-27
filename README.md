@@ -1,6 +1,6 @@
 # npmdoc-dom-events
 
-#### api documentation for  dom-events (v0.1.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-dom-events.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-dom-events) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-dom-events.svg)](https://travis-ci.org/npmdoc/node-npmdoc-dom-events)
+#### basic api documentation for  [dom-events (v0.1.1)](https://github.com/shtylman/dom-events#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-dom-events.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-dom-events) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-dom-events.svg)](https://travis-ci.org/npmdoc/node-npmdoc-dom-events)
 
 #### dom event binding and triggering
 
@@ -21,31 +21,47 @@
 ```json
 
 {
-    "name": "dom-events",
-    "version": "0.1.1",
-    "description": "dom event binding and triggering",
-    "main": "index.js",
+    "author": {
+        "name": "Roman Shtylman"
+    },
+    "bugs": {
+        "url": "https://github.com/shtylman/dom-events/issues"
+    },
     "dependencies": {
         "synthetic-dom-events": "0.1.1"
     },
+    "description": "dom event binding and triggering",
     "devDependencies": {
         "mocha": "1.8.1",
         "zuul": "0.0.7"
     },
-    "scripts": {
-        "test": "zuul --ui tdd test.js"
+    "directories": {},
+    "dist": {
+        "shasum": "1d06598aec5cdd3d5dc30c7b30a857b0b174c987",
+        "tarball": "https://registry.npmjs.org/dom-events/-/dom-events-0.1.1.tgz"
     },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/shtylman/dom-events.git"
-    },
+    "homepage": "https://github.com/shtylman/dom-events#readme",
     "keywords": [
         "event",
         "dom",
         "events"
     ],
-    "author": "Roman Shtylman <shtylman@gmail.com>",
     "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "shtylman"
+        }
+    ],
+    "name": "dom-events",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/shtylman/dom-events.git"
+    },
+    "scripts": {
+        "test": "zuul --ui tdd test.js"
+    },
     "testling": {
         "files": "test.js",
         "browsers": [
@@ -55,7 +71,9 @@
             "safari/5.1..latest"
         ],
         "harness": "mocha-tdd"
-    }
+    },
+    "version": "0.1.1",
+    "bin": {}
 }
 ```
 
